@@ -1,0 +1,8 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+numpy==1.21.3
+Pillow==9.0.1
+tabulate==0.8.9
+torch==1.10.0
+torchvision==0.11.1
+tqdm==4.62.3
+tensorboard==2.8.0
