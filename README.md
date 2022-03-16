@@ -1,5 +1,7 @@
 # Implicit Feature Decoupling with Depthwise Quantization
 
+code for paper: https://arxiv.org/pdf/2203.08080.pdf
+
 This is minimal code demonstrating the performance advantage of DQ vs VQ.
 
 ## Depedencies
