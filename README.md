@@ -4,6 +4,7 @@ code for paper: https://arxiv.org/pdf/2203.08080.pdf
 
 This is minimal code demonstrating the performance advantage of DQ vs VQ.
 
+
 ## Depedencies
 
 * python3.8
@@ -63,4 +64,26 @@ python train_dq.py --config dq.config --device cuda
 
 ```
 python test_dq.py --config dq.config --device cuda
+```
+
+## Cite
+
+```
+@misc{https://doi.org/10.48550/arxiv.2203.08080,
+  doi = {10.48550/ARXIV.2203.08080},
+  
+  url = {https://arxiv.org/abs/2203.08080},
+  
+  author = {Fostiropoulos, Iordanis and Boehm, Barry},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences, I.4.10; I.2.10; H.1.1},
+  
+  title = {Implicit Feature Decoupling with Depthwise Quantization},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
 ```
